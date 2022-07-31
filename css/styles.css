@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+
+
+:root {
+    --fontSize: 15px;
+    --ColorFonts: hsl(303, 64%, 21%);
+    --ColorFuente: hsl(300, 24%, 96%);
+    --Bgc: hsl(300, 43%, 22%);
+    --BgcContenedor: hsl(0, 0%, 100%);
+    --ColorLetra: hsl(333, 80%, 67%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+
+.todosContenedor {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.-contenedor {
+    display: flex;
+    margin: 0px 90px 0px 90px;
+    background-color: var(--BgcContenedor);
+}
+
+
+.contenedor-1 {
+    padding: 40px 40px 0px 90px;
+    font-size: var(--fontSize);
+    width: 500px;
+}
+
+.contenedor-1 h1 b {
+    padding-bottom: 15px;
+    font-size: 49px;
+    color: var(--ColorFonts);
+}
+
+.contenedor-1 p {
+    font-size: var(--fontSize);
+    color: var(--ColorFonts);
+    padding-right: auto;
+}
+
+
+.contenedor-2 {
+    margin: 40px 0 0 0;
+    padding: 30px 50px ;
+    font-size: var(--fontSize);
+    width: 520px;
+    background-color: var(--BgcContenedor);
+}
+
+.item-Est-1, .item-Est-2, .item-Est-3 {
+    display: flex;
+    background-color: hsla(300, 6%, 83%, 0.727);
+    color: var(--ColorFonts);
+    font-size: 16px;
+}
+
+.item-Est-1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.item-Est-2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.item-Est-3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.item-Est-1 h5 {
+    margin-top: 10px;
+    padding-left: 30px;
+
+}
+
+.item-Est-2 h5 {
+    margin-top: 10px;
+    padding-left: 30px;
+
+}
+
+.item-Est-3 h5 {
+    margin-top: 10px;
+    padding-left: 30px;
+
+}
+
+.Estrellas {
+    padding-left: 15px;
+}
+
+.Estrellas input {
+    display: none;
+}
+
+.Estrellas label {
+    font-size: 20px;
+    color: gold;
+    margin: 0 2px;
+    text-shadow: 1px 1px #bbb;
+}
+
+.Estrellas label::before {
+    content: '★';
+}
+
+
+.-contenedor1 {
+    display: flex;
+    margin: 0 90px 30px 90px;
+    background-color: var(--BgcContenedor);
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 180px;
+}
+
+
+.contenedor-3 {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+}
+
+.container-1 h5 {
+    margin: 8px 10px 2px 15px;
+    color: var(--ColorFuente);
+}
+.container-1 p {
+    margin: 8px 10px 2px 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: var(--ColorLetra);
+}
+
+
+
+.imagen-1, .imagen-2, .imagen-3 {
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.texto {
+    color: var(--ColorFuente);
+}
+
+.contenedor-4 {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+
+.contenedor-5 {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+}
+
+.attribution a {
+    color: aqua;
+}
