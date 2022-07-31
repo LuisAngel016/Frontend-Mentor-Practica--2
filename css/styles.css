@@ -36,8 +36,8 @@ body {
 
 .contenedor-1 {
     padding: 40px 40px 0px 90px;
-    font-size: var(--fontSize);
     width: 500px;
+    font-size: var(--fontSize);
 }
 
 .contenedor-1 h1 b {
@@ -47,25 +47,25 @@ body {
 }
 
 .contenedor-1 p {
+    padding-right: auto;
     font-size: var(--fontSize);
     color: var(--ColorFonts);
-    padding-right: auto;
 }
 
 
 .contenedor-2 {
     margin: 40px 0 0 0;
     padding: 30px 50px ;
-    font-size: var(--fontSize);
     width: 520px;
+    font-size: var(--fontSize);
     background-color: var(--BgcContenedor);
 }
 
 .item-Est-1, .item-Est-2, .item-Est-3 {
     display: flex;
+    font-size: 16px;
     background-color: hsla(300, 6%, 83%, 0.727);
     color: var(--ColorFonts);
-    font-size: 16px;
 }
 
 .item-Est-1 {
@@ -125,10 +125,10 @@ body {
 }
 
 .Estrellas label {
-    font-size: 20px;
-    color: gold;
     margin: 0 2px;
+    font-size: 20px;
     text-shadow: 1px 1px #bbb;
+    color: gold;
 }
 
 .Estrellas label::before {
@@ -139,20 +139,20 @@ body {
 .-contenedor1 {
     display: flex;
     margin: 0 90px 30px 90px;
-    background-color: var(--BgcContenedor);
     width: 950px;
     margin-left: auto;
     margin-right: auto;
     margin-left: 180px;
+    background-color: var(--BgcContenedor);
 }
 
 .contenedor-3 {
     padding: 20px;
     margin-bottom: 20px;
-    font-size: var(--fontSize);
-    background-color: var(--Bgc);
     margin-right: 20px;
     border-radius: 8px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
 }
 
 .container {
@@ -188,20 +188,20 @@ body {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: var(--fontSize);
-    background-color: var(--Bgc);
     margin-right: 20px;
     border-radius: 8px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
 }
 
 
 .contenedor-5 {
     padding: 20px;
     margin-top: 20px;
-    font-size: var(--fontSize);
-    background-color: var(--Bgc);
     margin-right: 20px;
     border-radius: 8px;
+    font-size: var(--fontSize);
+    background-color: var(--Bgc);
 }
 
 .attribution {
