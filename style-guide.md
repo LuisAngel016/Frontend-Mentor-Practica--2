@@ -27,6 +27,5 @@ White: hsl(0, 0%, 100%)
 - Font size: 15px
 
 ### Font
-
 - Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
 - Weights: 400, 500, 700
